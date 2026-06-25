@@ -1,8 +1,8 @@
 name: Minestrator-Restart
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 */2 * * *'
+#on:
+  #workflow_dispatch:
+  #schedule:
+    #- cron: '0 */2 * * *'
 
 jobs:
   start:
